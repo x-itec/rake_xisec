@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = RakeXisec::VERSION
   spec.authors       = ["Boris Köster"]
   spec.email         = ["x-itec@freenet.de"]
-  spec.description   = %q{Generates ECC signatures for sourcecode}
+  spec.description   = %q{Rake-Tasks; generates ECC signatures for sourcecode}
   spec.summary       = %q{Generates ECC signatures for sourcecode}
-  spec.homepage      = ""
+  spec.homepage      = "http://www.x-itec.net"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

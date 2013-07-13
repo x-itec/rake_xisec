@@ -8,6 +8,8 @@ Add this line to your application's Gemfile:
 
     gem 'rake_xisec' (currently not available)
 
+    gem 'xitec_core_gems', git: 'git://github.com/x-itec/rake_xisec.git' # github
+
 And then execute:
 
     $ bundle

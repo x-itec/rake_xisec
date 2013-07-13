@@ -59,7 +59,7 @@ After signing, modify any *.rb file and figure out the result of the verify-call
 
 First we create a keypair, so your customer can verify your publication. The key is done per project for more security, you can sign the public-key with gpg if you want, it's up to you.
 
-All or app/ files are scanned and calculated with sha1sum into lists. these lists get signed, therefore if anyone modifies the list or any bit of any *.rb file the verification fails. Thats exactly what we want.
+All or app/ files are scanned and calculated with sha1sum into lists. these lists get signed with elliptic curve cipher (!!! ultra secure !!!!),  if anyone modifies the list or any bit of any *.rb file the verification fails. Thats exactly what we want.
 
 ### Why?
 

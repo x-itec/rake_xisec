@@ -1,5 +1,7 @@
 require "rake_xisec/version"
 
 module RakeXisec
-  # Your code goes here...
+#damit der Rake-Task geladen wird
+require 'rake_xisec/railtie' if defined?(Rails)
+
 end

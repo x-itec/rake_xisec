@@ -6,7 +6,7 @@ module RakeXisec
     railtie_name :rake_xisec
 
     rake_tasks do
-      load "lib/tasks/xisig.rake"
+      load "tasks/xisig.rake"
     end
   end
 end
